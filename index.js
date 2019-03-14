@@ -1,7 +1,3 @@
-function todoList() {
-
-}  
-  
 function addToList(task) {
     let taskInput = document.getElementById('myInput').value; // input field value store in variable by the getElementById
     let taskLi = document.createElement('li'); // create a element li and stored a var
@@ -29,4 +25,10 @@ function removeFromList(event) { // Remove Function
     // than ul li remove
 
 }
+
+// create edit button
+// append to the ul li
+// click on edit button li text make a input field and fill same text
+// same as edit button change to save button
+// click on save button so save the input text value as same place
 
